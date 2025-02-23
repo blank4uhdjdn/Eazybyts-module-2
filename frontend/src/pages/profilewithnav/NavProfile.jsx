@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar'
-import Profile from '../profile/Profile'
+import Profile from '../Profile/Profile'
 import ProfileNav from '../navbar/ProfileNav'
 
 const NavProfile = () => {
