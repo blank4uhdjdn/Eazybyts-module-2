@@ -1,0 +1,26 @@
+{
+  "name": "stockmarket",
+  "version": "1.0.0",
+  "description": "real time stock market preview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js",
+    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
+
+  },
+  "author": "Sajid Ansari",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^3.0.0",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9",
+    "react-router-dom": "^7.1.5"
+  }
+}
