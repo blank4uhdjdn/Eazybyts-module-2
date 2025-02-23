@@ -1,5 +1,5 @@
 import React from 'react'
-import NavWithoutLogin from '../navWithoutLogin/navWithoutLogin'
+import NavWithoutLogin from '../navWithoutLogin/NavWithoutLogin'
 import StockCards from '../pages/dashboard/StockCards'
 
 const AfterLogin = () => {
